@@ -256,7 +256,7 @@ def main():
             # print(os.path.join(directory, filename))
             # save new image
             new_img = run_everything('test_images/' + filename)
-            cv2.imwrite(img=new_img, filename="laned_" + filename)
+            cv2.imwrite(img=new_img, filename='laned_' + filename)
             print("saved!")
 
         else:
